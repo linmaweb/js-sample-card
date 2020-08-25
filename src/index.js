@@ -14,6 +14,7 @@ import {
 } from "./variables";
 
 let currentActiveCard = 0;
+
 const cardsEl = [];
 const cardsData = getCardsData();
 

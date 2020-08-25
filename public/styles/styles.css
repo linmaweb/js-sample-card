@@ -18,16 +18,9 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
-}
-
-button {
-  cursor: pointer;
 }
 
 a {
@@ -53,21 +46,10 @@ a {
   margin-bottom: 0.4rem;
 }
 
-.header__subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 .top {
   background: #5ec6ff;
   padding: 15px;
   text-align: center;
-}
-h2 button {
-  position: absolute;
-  right: 0;
-  transform: translate(120%, -50%);
-  z-index: 2;
 }
 
 .btn {
@@ -173,24 +155,20 @@ h2 button {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background: #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 30px;
 }
 
 .inner-card-front {
   transform: rotateX(0deg);
   z-index: 2;
   background: #0174e1;
-  color: #fff;
-  border-radius: 5px;
-  padding: 15px 30px;
 }
 
 .inner-card-back {
   transform: rotateX(180deg);
   background: #5ec6ff;
-  color: #fff;
-  border-radius: 5px;
-  padding: 15px 30px;
 }
 
 .inner-card-front::after,
